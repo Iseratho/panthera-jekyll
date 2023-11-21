@@ -8,7 +8,8 @@ source "https://rubygems.org"
 
 group :jekyll_plugins do
   gem "jekyll-avatar"
-  gem "jekyll-assets"
+  # https://stackoverflow.com/questions/72878952/bundle-exec-jekyll-build-wrong-number-of-arguments-given-2-expected-1-argum
+  gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", ref: "refs/pull/666/head"
   gem "jekyll-remote-theme"
   gem "jekyll-paginate"
   gem "jekyll-default-layout"
@@ -27,3 +28,12 @@ group :development, :test do
 end
 
 gemspec
+
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+gem "webrick", "~> 1.8"
+gem "github-pages", "~> 228"
+# https://stackoverflow.com/questions/72878952/bundle-exec-jekyll-build-wrong-number-of-arguments-given-2-expected-1-argum
+gem "jekyll", "~>3.9"
+gem "sprockets"
+# https://stackoverflow.com/questions/62720043/rails-why-is-bundle-install-frozen-up-by-sassc-2-4-0
+gem 'sassc', '~> 2.1.0'

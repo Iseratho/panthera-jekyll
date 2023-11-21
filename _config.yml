@@ -25,23 +25,23 @@ footer:
 menu:
   - text: Portfolio
     link: /
-    icon: ""
+    icon: fas fa-project-diagram
 
   - text: Skills & Offers
     link: /skills-and-offers
-    icon: ""
+    icon: fas fa-chalkboard-teacher
 
   - text: Contact Me
     link: /contact
-    icon: ""
+    icon: fas fa-portrait
 
   - text: My Resume
     link: /resume
-    icon: ""
+    icon: fas fa-id-card
 
   - text: Blog Posts
     link: /blog
-    icon: ""
+    icon: fas fa-pen
 
 # Socialmedia Icons
 social_icons:
