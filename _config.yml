@@ -61,5 +61,18 @@ social_icons:
     link: https://www.twitter.com/christianezeani
     icon: fab fa-twitter
 
+  - name: linkedin2
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
 
-    
+  - name: github2
+    link: https://github.com/christianezeani
+    icon: fab fa-github-square
+
+  - name: facebook2
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
+  - name: twitter2
+    link: https://www.twitter.com/christianezeani
+    icon: fab fa-twitter
